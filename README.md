@@ -1,4 +1,4 @@
-# SAPUI5-ExpandableBarcodeScanInput
+# SAPUI5-BarcodeScanInput
 # Introduction
 This Project provides an Barcode scan input custom control to SAPUI5 Developers. This custom control is built in the 1.71 version
 HTML QRCode Library from https://github.com/mebjas/html5-qrcode 
