@@ -1,0 +1,39 @@
+{
+	"sap.app": {
+		"id": "sap.m.custom.BarcodeScanInput",
+		"applicationVersion": {
+			"version": "1.0.0"
+		}
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "sap.m.custom.BarcodeScanInput.view.App",
+			"type": "XML",
+			"async": true
+		},
+		"dependencies": {
+			"libs": {
+				"sap.m": {},
+				"sap.ui.core": {},
+				"sap.ui.layout": {}
+			}
+		},
+		"config": {
+			"sample": {
+				"files": [
+					"view/App.view.xml",
+					"controller/App.controller.js",
+					"manifest.json"
+				]
+			}
+		},
+		"resources": {
+			"css": [
+				{
+					"uri": "css/styles.css",
+					"id": "customCSS"
+				}
+			]
+		}
+	}
+}

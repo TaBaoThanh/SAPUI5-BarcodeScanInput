@@ -1,0 +1,4 @@
+<mvc:View controllerName="sap.m.custom.BarcodeScanInput.controller.App" xmlns:l="sap.ui.layout" xmlns:core="sap.ui.core"
+	xmlns:f="sap.ui.layout.form" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:u="sap.ui.unified" xmlns:ext="sap.m.custom.BarcodeScanInput.control">
+	<ext:BarcodeScanInput width="500px"></ext:BarcodeScanInput>
+</mvc:View>
