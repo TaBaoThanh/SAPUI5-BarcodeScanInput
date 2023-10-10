@@ -12,6 +12,10 @@ sap.ui.define([
 		onInit: function () {
 			var oModel = new JSONModel(this._data);
 			this.getView().setModel(oModel);
+		},
+		
+		onTakePhoto: function(oEvent) {
+			var image = oEvent.getParameter("ImageSrc");
 		}
 	});
 });
